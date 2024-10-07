@@ -45,6 +45,11 @@
 <script setup>
     import audit from '../assets/images/detail/audit.jpg';
     const back = useRouter();
+
+    useHead({
+        title: 'bestbuxgalter Audit',
+        meta: [{name: 'description', content: 'Bu xizmat orqali siz o`z buxgalteringiz ishi sifatiga, hujjatlar to`liq va to`g`ri yuritilishiga yordam beruvchi tekshiruvchi nazari bilan qaray olasiz.'}]
+    })
 </script>
 
 <style lang="scss" scoped>

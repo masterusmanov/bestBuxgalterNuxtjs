@@ -64,7 +64,12 @@
 
 <script setup>
     import policy from '../assets/images/detail/policy.jpg';
-    const back = useRouter()
+    const back = useRouter();
+
+    useHead({
+        title: 'bestbuxgalter Hisob siyosati',
+        meta: [{name: 'description', content: 'Hozirgi vaqtda xo`jalik yurituvchi sub`ektlar ikki xil hisob siyosatiga ega bo`lishi kerak:'}]
+    })
 </script>
 
 <style lang="scss" scoped>

@@ -66,7 +66,12 @@
 
 <script setup>
     import financ from '../assets/images/detail/financ.jpg';
-    const back = useRouter()
+    const back = useRouter();
+
+    useHead({
+        title: 'bestbuxgalter Moliya, Soliq, Statistika',
+        meta: [{name: 'description', content: 'Moliyaviy hisobot (buxgalteriya hisoboti), Statistik hisobot, Buxgalteriya hisobi va hisobotingiz o`z vaqtida sifatli bo`ladi, Soliq hisoboti'}]
+    })
 </script>
 
 <style lang="scss" scoped>

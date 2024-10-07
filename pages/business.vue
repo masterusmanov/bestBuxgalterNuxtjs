@@ -11,10 +11,10 @@
             <p class="text-justify px-2 lg:text-[18px]">
               <b>Ro'yxatga olish - </b>yuridik shaxslarni va yakka tartibdagi
               tadbirkorlarni vakolatli davlat organlarida davlat ro'yxatidan
-              o'tkazishga ko’maklashish;{" "}
+              o'tkazishga ko’maklashish;
               <b>
                 Qayta tashkil etilganda va ta'sis hujjatlari o'zgartirilganda
-                qayta ro'yxatdan o'tkazish -{" "}
+                qayta ro'yxatdan o'tkazish -
               </b>
               ta'sis hujjatlariga kiritilgan o'zgartirishlarni va yuridik shaxs
               qayta tashkil etilganda vakolatli organlarda davlat ro'yxatidan
@@ -66,6 +66,11 @@
 <script setup>
     import business from '../assets/images/detail/business.jpg';
     const back = useRouter();
+
+    useHead({
+        title: 'bestbuxgalter Biznes',
+        meta: [{name: 'description', content: 'Ro`yxatga olish - yuridik shaxslarni va yakka tartibdagi tadbirkorlarni vakolatli davlat organlarida davlat ro`yxatidan o`tkazishga ko`maklashish'}]
+    })
 </script>
 
 <style lang="scss" scoped>

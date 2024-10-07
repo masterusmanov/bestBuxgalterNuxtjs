@@ -63,8 +63,12 @@
 
 <script setup>
     import recovery from '../assets/images/detail/recovery.jpg';
+    const back = useRouter();
 
-    const back = useRouter()
+    useHead({
+        title: 'bestbuxgalter Hisobni tiklash',
+        meta: [{name: 'description', content: 'Buxgalteriya hisobini tiklash - bu xo`jalik yurituvchi sub`ektning buxgalteriya hisobini qonun hujjatlari talablariga muvofiq tegishli holatga keltirish maqsadi bo`lgan hodisadir.'}]
+    })
 </script>   
 
 <style lang="scss" scoped>

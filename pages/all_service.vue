@@ -66,6 +66,11 @@
 <script setup>
     import allService from '../assets/images/detail/all_service.webp';
     const back = useRouter();
+
+    useHead({
+        title: 'bestbuxgalter Barcha xizmatlar',
+        meta: [{name: 'description', content: 'Yuqori malakali hodimlar jamoasi, Buxgalteriya bo`limi bilan bog`liq bo`lgan kadrlar bilan bog`liq muammolar sizni bezovta qilmaydi,'}]
+    })
 </script>
 
 <style lang="scss" scoped>
