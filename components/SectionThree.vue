@@ -36,7 +36,7 @@
     {
       title: "Standart",
       description:
-        "Ushbu tarif ishchi-hodimlar soni 5 nafargacha bo`lgan yillik aylanmasi 1 milliardgacha bo`lgan tadbirkorlar uchun mos keladi. Xizmat uchun oylik to`lov 2 mln so`m.",
+        "Ushbu tarif ishchi-hodimlar soni 5 nafargacha bo`lgan yillik aylanmasi 1 milliardgacha bo`lgan tadbirkorlar uchun mos keladi. Xizmat uchun oylik to`lov 5 mln so`m.",
       img: standard,
     },
     {
